@@ -1,0 +1,2231 @@
+<!DOCTYPE html>
+<!-- saved from url=(0215)file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#services -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIBER WAVE Solutions | High-Precision Fiber &amp; Network Engineering</title>
+    <meta name="description" content="FIBER WAVE Solutions - Professional fiber optic and network infrastructure engineering. Fast, accurate, secure network solutions with full documentation.">
+    <meta property="og:title" content="FIBER WAVE Solutions | Where Networks Become Power">
+    <meta property="og:description" content="High-precision fiber optic splicing, LAN/WAN design, and network infrastructure solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://fiberwave.com/og-image.jpg">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 32 32&#39;%3E%3Crect fill=&#39;%230a1628&#39; width=&#39;32&#39; height=&#39;32&#39; rx=&#39;4&#39;/%3E%3Cpath d=&#39;M4 16 Q8 10 16 16 Q24 22 28 16&#39; stroke=&#39;%2300d4ff&#39; fill=&#39;none&#39; stroke-width=&#39;3&#39;/%3E%3C/svg%3E">
+    <style>
+        :root {
+            --deep-blue: #0a1628;
+            --navy: #0f2847;
+            --cyan: #00d4ff;
+            --aqua: #00a8cc;
+            --light-cyan: #7eeaff;
+            --white: #ffffff;
+            --gray-100: #f0f4f8;
+            --gray-200: #d9e2ec;
+            --gray-600: #627d98;
+            --gray-800: #243b53;
+            --success: #10b981;
+            --error: #ef4444;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--deep-blue);
+            color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        [dir="rtl"] body {
+            font-family: 'Segoe UI', Tahoma, 'Traditional Arabic', 'Noto Sans Arabic', sans-serif;
+        }
+        
+        /* Fiber Wave Background Pattern */
+        .wave-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.05;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%2300d4ff' d='M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,138.7C672,128,768,160,864,181.3C960,203,1056,213,1152,197.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+            background-repeat: repeat;
+            background-size: 100% 200px;
+        }
+        
+        /* Utility Classes */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .section {
+            padding: 80px 0;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .section-title {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            margin-bottom: 1rem;
+            color: var(--white);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--cyan), var(--aqua));
+            border-radius: 2px;
+        }
+        
+        [dir="rtl"] .section-title::after {
+            left: auto;
+            right: 0;
+        }
+        
+        .section-subtitle {
+            color: var(--gray-200);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin-bottom: 3rem;
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--cyan), var(--aqua));
+            color: var(--deep-blue);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--cyan);
+            border: 2px solid var(--cyan);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--cyan);
+            color: var(--deep-blue);
+        }
+        
+        .btn-small {
+            padding: 10px 20px;
+            font-size: 0.9rem;
+        }
+        
+        /* Cards */
+        .card {
+            background: linear-gradient(145deg, rgba(15, 40, 71, 0.8), rgba(10, 22, 40, 0.9));
+            border: 1px solid rgba(0, 212, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0, 212, 255, 0.3);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .card-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--cyan), var(--aqua));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .card-icon svg {
+            width: 30px;
+            height: 30px;
+            fill: var(--deep-blue);
+        }
+        
+        .card-title {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            color: var(--white);
+        }
+        
+        .card-text {
+            color: var(--gray-200);
+            font-size: 0.95rem;
+        }
+        
+        /* Badge */
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: rgba(0, 212, 255, 0.15);
+            color: var(--cyan);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        /* Grid Systems */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+        }
+        
+        .grid-5 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(10, 22, 40, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--white);
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+        
+        .logo-wave {
+            width: 40px;
+            height: 40px;
+        }
+        
+        .logo-text {
+            background: linear-gradient(135deg, var(--white), var(--cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: var(--gray-200);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+        
+        .nav-links a:hover {
+            color: var(--cyan);
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--cyan);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        .lang-toggle {
+            display: flex;
+            background: rgba(0, 212, 255, 0.1);
+            border-radius: 25px;
+            overflow: hidden;
+        }
+        
+        .lang-btn {
+            padding: 8px 16px;
+            border: none;
+            background: transparent;
+            color: var(--gray-200);
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .lang-btn.active {
+            background: var(--cyan);
+            color: var(--deep-blue);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+        }
+        
+        .mobile-menu-btn svg {
+            width: 28px;
+            height: 28px;
+            fill: var(--white);
+        }
+        
+        @media (max-width: 900px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(10, 22, 40, 0.98);
+                flex-direction: column;
+                padding: 20px;
+                gap: 15px;
+                border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+            }
+            
+            .nav-links.active {
+                display: flex;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+        }
+        
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 70% 30%, rgba(0, 212, 255, 0.1) 0%, transparent 50%);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, var(--white) 0%, var(--light-cyan) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            color: var(--gray-200);
+            max-width: 650px;
+            margin-bottom: 2rem;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .hero-visual {
+            position: absolute;
+            right: -100px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 600px;
+            height: 600px;
+            opacity: 0.3;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-visual {
+                display: none;
+            }
+        }
+        
+        /* Why Section */
+        .why-section {
+            background: linear-gradient(180deg, transparent, rgba(15, 40, 71, 0.5));
+        }
+        
+        .why-card {
+            text-align: center;
+        }
+        
+        .why-card .card-icon {
+            margin: 0 auto 20px;
+        }
+        
+        /* Workflow Section */
+        .workflow {
+            padding: 60px 0;
+        }
+        
+        .workflow-steps {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        
+        .workflow-step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            flex: 1;
+            min-width: 120px;
+        }
+        
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--cyan), var(--aqua));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: var(--deep-blue);
+            margin-bottom: 12px;
+        }
+        
+        .step-title {
+            font-weight: 600;
+            color: var(--white);
+            margin-bottom: 5px;
+        }
+        
+        .step-arrow {
+            color: var(--cyan);
+            font-size: 1.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .workflow-steps {
+                flex-direction: column;
+            }
+            
+            .step-arrow {
+                transform: rotate(90deg);
+            }
+        }
+        
+        /* About Section */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        
+        @media (max-width: 768px) {
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .about-text p {
+            color: var(--gray-200);
+            margin-bottom: 1.5rem;
+        }
+        
+        .vision-list {
+            list-style: none;
+        }
+        
+        .vision-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 15px;
+            color: var(--gray-200);
+        }
+        
+        .vision-list svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--cyan);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        /* Services Section */
+        .services-section {
+            background: linear-gradient(180deg, rgba(15, 40, 71, 0.3), transparent);
+        }
+        
+        .service-card {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .service-benefits {
+            list-style: none;
+            margin: 20px 0;
+            flex-grow: 1;
+        }
+        
+        .service-benefits li {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--gray-200);
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+        }
+        
+        .service-benefits svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--cyan);
+            flex-shrink: 0;
+        }
+        
+        .deliverables {
+            margin-top: 60px;
+            padding: 40px;
+            background: rgba(0, 212, 255, 0.05);
+            border-radius: 16px;
+            border: 1px solid rgba(0, 212, 255, 0.1);
+        }
+        
+        .deliverables-title {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            color: var(--cyan);
+        }
+        
+        .deliverables-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .deliverable-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--gray-200);
+        }
+        
+        .deliverable-item svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--cyan);
+        }
+        
+        /* Industries Section */
+        .industry-card {
+            text-align: center;
+            padding: 35px 25px;
+        }
+        
+        .industry-card .card-icon {
+            margin: 0 auto 20px;
+            width: 70px;
+            height: 70px;
+        }
+        
+        /* Projects Section */
+        .project-card {
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .project-header {
+            background: linear-gradient(135deg, var(--navy), var(--deep-blue));
+            padding: 25px;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+        }
+        
+        .project-header h3 {
+            color: var(--white);
+            margin-bottom: 8px;
+        }
+        
+        .project-client {
+            color: var(--cyan);
+            font-size: 0.9rem;
+        }
+        
+        .project-body {
+            padding: 25px;
+        }
+        
+        .project-section {
+            margin-bottom: 15px;
+        }
+        
+        .project-label {
+            font-weight: 600;
+            color: var(--cyan);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+        
+        .project-value {
+            color: var(--gray-200);
+            font-size: 0.95rem;
+        }
+        
+        .project-result {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        
+        .project-result .project-label {
+            color: var(--success);
+        }
+        
+        /* Blog Section */
+        .blog-card {
+            cursor: pointer;
+        }
+        
+        .blog-meta {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .blog-meta span {
+            color: var(--gray-600);
+            font-size: 0.85rem;
+        }
+        
+        .blog-title {
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+            color: var(--white);
+            transition: color 0.3s ease;
+        }
+        
+        .blog-card:hover .blog-title {
+            color: var(--cyan);
+        }
+        
+        .blog-snippet {
+            color: var(--gray-200);
+            margin-bottom: 15px;
+        }
+        
+        .blog-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        
+        .blog-content {
+            display: none;
+            padding-top: 20px;
+            border-top: 1px solid rgba(0, 212, 255, 0.1);
+            margin-top: 15px;
+            color: var(--gray-200);
+            line-height: 1.8;
+        }
+        
+        .blog-content.expanded {
+            display: block;
+        }
+        
+        .blog-toggle {
+            color: var(--cyan);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        /* Contact Section */
+        .contact-section {
+            background: linear-gradient(180deg, transparent, rgba(15, 40, 71, 0.5));
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 50px;
+        }
+        
+        @media (max-width: 900px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .contact-info-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .contact-info-card svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--cyan);
+            flex-shrink: 0;
+        }
+        
+        .contact-info-card h4 {
+            color: var(--white);
+            margin-bottom: 5px;
+        }
+        
+        .contact-info-card p {
+            color: var(--gray-200);
+            font-size: 0.95rem;
+        }
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--gray-200);
+            font-size: 0.95rem;
+        }
+        
+        .form-input,
+        .form-select,
+        .form-textarea {
+            width: 100%;
+            padding: 14px 18px;
+            background: rgba(15, 40, 71, 0.8);
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            border-radius: 8px;
+            color: var(--white);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .form-input:focus,
+        .form-select:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--cyan);
+            box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.1);
+        }
+        
+        .form-input.error,
+        .form-select.error,
+        .form-textarea.error {
+            border-color: var(--error);
+        }
+        
+        .form-textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        .form-select {
+            cursor: pointer;
+        }
+        
+        .form-select option {
+            background: var(--deep-blue);
+        }
+        
+        .error-message {
+            color: var(--error);
+            font-size: 0.85rem;
+            margin-top: 5px;
+            display: none;
+        }
+        
+        .success-message {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid var(--success);
+            color: var(--success);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            display: none;
+        }
+        
+        .success-message.show {
+            display: block;
+        }
+        
+        .survey-form {
+            margin-top: 40px;
+            padding: 30px;
+            background: rgba(0, 212, 255, 0.05);
+            border-radius: 16px;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+        
+        .survey-title {
+            color: var(--cyan);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        /* WhatsApp Button */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: #25d366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            z-index: 999;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        [dir="rtl"] .whatsapp-btn {
+            right: auto;
+            left: 30px;
+        }
+        
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+        }
+        
+        .whatsapp-btn svg {
+            width: 32px;
+            height: 32px;
+            fill: white;
+        }
+        
+        /* Footer */
+        .footer {
+            background: rgba(10, 22, 40, 0.95);
+            border-top: 1px solid rgba(0, 212, 255, 0.1);
+            padding: 50px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-brand {
+            max-width: 300px;
+        }
+        
+        .footer-brand .logo {
+            margin-bottom: 15px;
+        }
+        
+        .footer-brand p {
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+        
+        .footer-links h4 {
+            color: var(--white);
+            margin-bottom: 20px;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: var(--gray-600);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--cyan);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(0, 212, 255, 0.1);
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+        
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+        
+        *:focus-visible {
+            outline: 2px solid var(--cyan);
+            outline-offset: 2px;
+        }
+        
+        /* Skip Link */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--cyan);
+            color: var(--deep-blue);
+            padding: 10px 20px;
+            z-index: 10000;
+            transition: top 0.3s ease;
+        }
+        
+        .skip-link:focus {
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="wave-bg" aria-hidden="true"></div>
+    
+    <a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#main" class="skip-link" data-i18n="skipToMain">Skip to main content</a>
+    
+    <!-- Header -->
+    <header class="header" role="banner" style="background: rgba(10, 22, 40, 0.95);">
+        <div class="header-content">
+            <a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#home" class="logo" aria-label="FIBER WAVE Solutions - Home">
+                <svg class="logo-wave" viewBox="0 0 50 50" aria-hidden="true">
+                    <defs>
+                        <lineargradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" style="stop-color:#00d4ff"></stop>
+                            <stop offset="100%" style="stop-color:#00a8cc"></stop>
+                        </lineargradient>
+                    </defs>
+                    <circle cx="25" cy="25" r="23" fill="#0a1628" stroke="url(#waveGrad)" stroke-width="2"></circle>
+                    <path d="M8 25 Q15 15 25 25 Q35 35 42 25" stroke="url(#waveGrad)" fill="none" stroke-width="3" stroke-linecap="round"></path>
+                    <path d="M8 32 Q15 22 25 32 Q35 42 42 32" stroke="url(#waveGrad)" fill="none" stroke-width="2" stroke-linecap="round" opacity="0.5"></path>
+                </svg>
+                <span class="logo-text">FIBER WAVE</span>
+            </a>
+            
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#home" data-i18n="navHome">Home</a></li>
+                    <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#about" data-i18n="navAbout">About</a></li>
+                    <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#services" data-i18n="navServices">Services</a></li>
+                    <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#industries" data-i18n="navIndustries">Industries</a></li>
+                    <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#projects" data-i18n="navProjects">Projects</a></li>
+                    <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#blog" data-i18n="navBlog">Blog</a></li>
+                    <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#contact" data-i18n="navContact">Contact</a></li>
+                </ul>
+                
+                <div class="lang-toggle" role="group" aria-label="Language selection">
+                    <button class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+                    <button class="lang-btn" data-lang="ar" aria-pressed="false">AR</button>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false">
+                    <svg viewBox="0 0 24 24"><path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"></path></svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+    
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero section visible">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 data-i18n="heroTitle">High-Precision Fiber &amp; Network Engineering</h1>
+                    <p class="hero-subtitle" data-i18n="heroSubtitle">Fast, accurate, secure network infrastructure—delivered with full documentation and professional workflow.</p>
+                    <div class="hero-buttons">
+                        <a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#services" class="btn btn-primary" data-i18n="heroBtn1">View Services</a>
+                        <a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#contact" class="btn btn-secondary" data-i18n="heroBtn2">Request a Site Survey</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <svg viewBox="0 0 400 400">
+                    <defs>
+                        <lineargradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.3"></stop>
+                            <stop offset="100%" style="stop-color:#00a8cc;stop-opacity:0.1"></stop>
+                        </lineargradient>
+                    </defs>
+                    <circle cx="200" cy="200" r="150" stroke="url(#heroGrad)" fill="none" stroke-width="2"></circle>
+                    <circle cx="200" cy="200" r="100" stroke="url(#heroGrad)" fill="none" stroke-width="1.5"></circle>
+                    <circle cx="200" cy="200" r="50" stroke="url(#heroGrad)" fill="none" stroke-width="1"></circle>
+                    <path d="M50 200 Q125 150 200 200 Q275 250 350 200" stroke="#00d4ff" fill="none" stroke-width="2" opacity="0.5"></path>
+                    <path d="M50 220 Q125 170 200 220 Q275 270 350 220" stroke="#00a8cc" fill="none" stroke-width="1.5" opacity="0.3"></path>
+                </svg>
+            </div>
+        </section>
+        
+        <!-- Why Fiber Wave -->
+        <section class="why-section section visible" aria-labelledby="whyTitle">
+            <div class="container">
+                <h2 class="section-title" id="whyTitle" data-i18n="whyTitle">Why Fiber Wave?</h2>
+                <p class="section-subtitle" data-i18n="whySubtitle">We combine technical precision with professional delivery</p>
+                
+                <div class="grid-4">
+                    <article class="card why-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="why1Title">Precision</h3>
+                        <p class="card-text" data-i18n="why1Text">Accurate measurements and professional-grade installations every time</p>
+                    </article>
+                    
+                    <article class="card why-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="why2Title">Speed</h3>
+                        <p class="card-text" data-i18n="why2Text">Fast project delivery without compromising on quality standards</p>
+                    </article>
+                    
+                    <article class="card why-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 6c1.4 0 2.8 1.1 2.8 2.5V11c.6.2 1.2.8 1.2 1.5v3c0 .8-.7 1.5-1.5 1.5h-5c-.8 0-1.5-.7-1.5-1.5v-3c0-.7.5-1.3 1.2-1.5V9.5C9.2 8.1 10.6 7 12 7z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="why3Title">Security</h3>
+                        <p class="card-text" data-i18n="why3Text">Security-first design approach for all network implementations</p>
+                    </article>
+                    
+                    <article class="card why-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="why4Title">Reliability</h3>
+                        <p class="card-text" data-i18n="why4Text">Consistent, dependable results backed by thorough documentation</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Workflow -->
+        <section class="workflow section visible" aria-labelledby="workflowTitle">
+            <div class="container">
+                <h2 class="section-title" id="workflowTitle" data-i18n="workflowTitle">Our Workflow</h2>
+                <p class="section-subtitle" data-i18n="workflowSubtitle">A systematic approach to every project</p>
+                
+                <div class="workflow-steps">
+                    <div class="workflow-step">
+                        <div class="step-number">1</div>
+                        <span class="step-title" data-i18n="step1">Plan</span>
+                    </div>
+                    <span class="step-arrow" aria-hidden="true">→</span>
+                    <div class="workflow-step">
+                        <div class="step-number">2</div>
+                        <span class="step-title" data-i18n="step2">Build</span>
+                    </div>
+                    <span class="step-arrow" aria-hidden="true">→</span>
+                    <div class="workflow-step">
+                        <div class="step-number">3</div>
+                        <span class="step-title" data-i18n="step3">Test</span>
+                    </div>
+                    <span class="step-arrow" aria-hidden="true">→</span>
+                    <div class="workflow-step">
+                        <div class="step-number">4</div>
+                        <span class="step-title" data-i18n="step4">Document</span>
+                    </div>
+                    <span class="step-arrow" aria-hidden="true">→</span>
+                    <div class="workflow-step">
+                        <div class="step-number">5</div>
+                        <span class="step-title" data-i18n="step5">Support</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about" class="section visible" aria-labelledby="aboutTitle">
+            <div class="container">
+                <h2 class="section-title" id="aboutTitle" data-i18n="aboutTitle">About Us</h2>
+                <p class="section-subtitle" data-i18n="aboutSubtitle">Building the network infrastructure of tomorrow</p>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-i18n="aboutP1">FIBER WAVE Solutions is a modern telecommunications and network infrastructure company specializing in fiber optic installations, enterprise network design, and comprehensive technical solutions.</p>
+                        <p data-i18n="aboutP2">We stand out through our commitment to thorough documentation, modern engineering workflows, professional communication, and security-oriented design principles. Every project we undertake receives the same level of precision and attention to detail.</p>
+                        <p data-i18n="aboutP3">Our team combines years of field experience with cutting-edge technical knowledge to deliver solutions that exceed expectations.</p>
+                    </div>
+                    
+                    <div class="about-vision">
+                        <h3 class="card-title" style="margin-bottom: 20px;" data-i18n="visionTitle">Our Vision</h3>
+                        <ul class="vision-list">
+                            <li>
+                                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg>
+                                <span data-i18n="vision1">Smart Solutions division for IoT and automation</span>
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg>
+                                <span data-i18n="vision2">Cybersecurity services expansion</span>
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg>
+                                <span data-i18n="vision3">Multi-city growth and regional presence</span>
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg>
+                                <span data-i18n="vision4">Strong engineering and field team development</span>
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg>
+                                <span data-i18n="vision5">ASA Academy training ecosystem</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Section -->
+        <section id="services" class="services-section section visible" aria-labelledby="servicesTitle">
+            <div class="container">
+                <h2 class="section-title" id="servicesTitle" data-i18n="servicesTitle">Our Services</h2>
+                <p class="section-subtitle" data-i18n="servicesSubtitle">Comprehensive network infrastructure solutions</p>
+                
+                <div class="grid-3">
+                    <article class="card service-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="service1Title">Fiber Optic Splicing</h3>
+                        <p class="card-text" data-i18n="service1Desc">Professional FTTH, FTTB, and backbone fiber optic installation and splicing services.</p>
+                        <ul class="service-benefits">
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service1B1">Low-loss fusion splicing</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service1B2">OTDR testing &amp; certification</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service1B3">Complete fiber documentation</span></li>
+                        </ul>
+                        <a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#contact" class="btn btn-primary btn-small" data-i18n="requestQuote">Request Quote</a>
+                    </article>
+                    
+                    <article class="card service-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zM9 8h2v8H9zm4 0h2v8h-2z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="service2Title">LAN/WAN Network Design</h3>
+                        <p class="card-text" data-i18n="service2Desc">Complete network infrastructure design for companies, schools, and industrial facilities.</p>
+                        <ul class="service-benefits">
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service2B1">Scalable architecture design</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service2B2">VLAN segmentation planning</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service2B3">Redundancy implementation</span></li>
+                        </ul>
+                        <a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#contact" class="btn btn-primary btn-small" data-i18n="requestQuote">Request Quote</a>
+                    </article>
+                    
+                    <article class="card service-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M4 6h18V4H4c-1.1 0-2 .9-2 2v11H0v3h14v-3H4V6zm19 2h-6c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 9h-4v-7h4v7z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="service3Title">Network Equipment Setup</h3>
+                        <p class="card-text" data-i18n="service3Desc">Expert installation and configuration of routers, switches, and firewalls.</p>
+                        <ul class="service-benefits">
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service3B1">Multi-vendor expertise</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service3B2">Security hardening</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service3B3">Performance optimization</span></li>
+                        </ul>
+                        <a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#contact" class="btn btn-primary btn-small" data-i18n="requestQuote">Request Quote</a>
+                    </article>
+                    
+                    <article class="card service-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="service4Title">Troubleshooting &amp; Maintenance</h3>
+                        <p class="card-text" data-i18n="service4Desc">Rapid diagnosis and resolution of network issues with ongoing support.</p>
+                        <ul class="service-benefits">
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service4B1">24/7 emergency support</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service4B2">Proactive monitoring</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service4B3">Root cause analysis</span></li>
+                        </ul>
+                        <a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#contact" class="btn btn-primary btn-small" data-i18n="requestQuote">Request Quote</a>
+                    </article>
+                    
+                    <article class="card service-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="service5Title">Network Mapping &amp; Planning</h3>
+                        <p class="card-text" data-i18n="service5Desc">Comprehensive infrastructure assessment and improvement planning.</p>
+                        <ul class="service-benefits">
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service5B1">Full topology mapping</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service5B2">Capacity planning</span></li>
+                            <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg><span data-i18n="service5B3">Upgrade roadmap</span></li>
+                        </ul>
+                        <a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#contact" class="btn btn-primary btn-small" data-i18n="requestQuote">Request Quote</a>
+                    </article>
+                </div>
+                
+                <!-- Deliverables -->
+                <div class="deliverables">
+                    <h3 class="deliverables-title" data-i18n="deliverablesTitle">Project Deliverables</h3>
+                    <div class="deliverables-grid">
+                        <div class="deliverable-item">
+                            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"></path></svg>
+                            <span data-i18n="del1">Full Documentation Package</span>
+                        </div>
+                        <div class="deliverable-item">
+                            <svg viewBox="0 0 24 24"><path d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3h7zM7 9H4V5h3v4zm10 6h3v4h-3v-4zm0-10h3v4h-3V5z"></path></svg>
+                            <span data-i18n="del2">Network Topology Diagrams</span>
+                        </div>
+                        <div class="deliverable-item">
+                            <svg viewBox="0 0 24 24"><path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"></path></svg>
+                            <span data-i18n="del3">Cable Labeling Standards</span>
+                        </div>
+                        <div class="deliverable-item">
+                            <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"></path></svg>
+                            <span data-i18n="del4">Testing Results (OTDR/Power)</span>
+                        </div>
+                        <div class="deliverable-item">
+                            <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"></path></svg>
+                            <span data-i18n="del5">Handover Checklist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Industries Section -->
+        <section id="industries" class="section visible" aria-labelledby="industriesTitle">
+            <div class="container">
+                <h2 class="section-title" id="industriesTitle" data-i18n="industriesTitle">Industries We Serve</h2>
+                <p class="section-subtitle" data-i18n="industriesSubtitle">Tailored solutions for every sector</p>
+                
+                <div class="grid-5">
+                    <article class="card industry-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="ind1">Telecom Companies</h3>
+                    </article>
+                    
+                    <article class="card industry-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="ind2">Schools &amp; Universities</h3>
+                    </article>
+                    
+                    <article class="card industry-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="ind3">Corporate Offices</h3>
+                    </article>
+                    
+                    <article class="card industry-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M19 3H9c-1.1 0-2 .9-2 2v5.59l-4.3 4.3C2 15.59 2.38 17 3.41 17H7v2c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-8 15H9v-5.59L12 9.42V18zm8 0h-6v-4h6v4zm0-6h-6V6h6v6z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="ind4">Factories &amp; Smart Buildings</h3>
+                    </article>
+                    
+                    <article class="card industry-card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path></svg>
+                        </div>
+                        <h3 class="card-title" data-i18n="ind5">Government Projects</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects" class="section visible" aria-labelledby="projectsTitle">
+            <div class="container">
+                <h2 class="section-title" id="projectsTitle" data-i18n="projectsTitle">Our Projects</h2>
+                <p class="section-subtitle" data-i18n="projectsSubtitle">Real results from real implementations</p>
+                
+                <div class="grid-2">
+                    <article class="card project-card">
+                        <div class="project-header">
+                            <h3 data-i18n="proj1Title">University Campus Network</h3>
+                            <span class="project-client" data-i18n="proj1Client">Educational Institution</span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-section">
+                                <div class="project-label" data-i18n="problem">Problem</div>
+                                <p class="project-value" data-i18n="proj1Problem">Outdated network infrastructure causing slow connectivity across 12 buildings with 5000+ users.</p>
+                            </div>
+                            <div class="project-section">
+                                <div class="project-label" data-i18n="solution">Solution</div>
+                                <p class="project-value" data-i18n="proj1Solution">Complete fiber backbone installation with new switching infrastructure and VLAN segmentation.</p>
+                            </div>
+                            <div class="project-result">
+                                <div class="project-label" data-i18n="result">Result</div>
+                                <p class="project-value" data-i18n="proj1Result">300% increase in network speed, 99.9% uptime achieved, zero security incidents in 12 months.</p>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="card project-card">
+                        <div class="project-header">
+                            <h3 data-i18n="proj2Title">Industrial Factory Connectivity</h3>
+                            <span class="project-client" data-i18n="proj2Client">Manufacturing Facility</span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-section">
+                                <div class="project-label" data-i18n="problem">Problem</div>
+                                <p class="project-value" data-i18n="proj2Problem">No structured cabling, frequent downtime affecting production line automation systems.</p>
+                            </div>
+                            <div class="project-section">
+                                <div class="project-label" data-i18n="solution">Solution</div>
+                                <p class="project-value" data-i18n="proj2Solution">Industrial-grade fiber installation with redundant paths and environmental protection.</p>
+                            </div>
+                            <div class="project-result">
+                                <div class="project-label" data-i18n="result">Result</div>
+                                <p class="project-value" data-i18n="proj2Result">Production efficiency up 45%, network downtime reduced from 8 hours/month to under 10 minutes.</p>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="card project-card">
+                        <div class="project-header">
+                            <h3 data-i18n="proj3Title">Corporate Headquarters Upgrade</h3>
+                            <span class="project-client" data-i18n="proj3Client">Financial Services Company</span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-section">
+                                <div class="project-label" data-i18n="problem">Problem</div>
+                                <p class="project-value" data-i18n="proj3Problem">Security vulnerabilities in legacy network, no segmentation between departments.</p>
+                            </div>
+                            <div class="project-section">
+                                <div class="project-label" data-i18n="solution">Solution</div>
+                                <p class="project-value" data-i18n="proj3Solution">Network redesign with firewall zones, micro-segmentation, and encrypted backbone links.</p>
+                            </div>
+                            <div class="project-result">
+                                <div class="project-label" data-i18n="result">Result</div>
+                                <p class="project-value" data-i18n="proj3Result">Passed security audit with zero findings, achieved compliance certification within 3 months.</p>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="card project-card">
+                        <div class="project-header">
+                            <h3 data-i18n="proj4Title">Multi-Branch Telecom Project</h3>
+                            <span class="project-client" data-i18n="proj4Client">Regional ISP</span>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-section">
+                                <div class="project-label" data-i18n="problem">Problem</div>
+                                <p class="project-value" data-i18n="proj4Problem">Expanding to 15 new neighborhoods required rapid FTTH deployment with quality control.</p>
+                            </div>
+                            <div class="project-section">
+                                <div class="project-label" data-i18n="solution">Solution</div>
+                                <p class="project-value" data-i18n="proj4Solution">Managed end-to-end fiber deployment including splicing, testing, and documentation.</p>
+                            </div>
+                            <div class="project-result">
+                                <div class="project-label" data-i18n="result">Result</div>
+                                <p class="project-value" data-i18n="proj4Result">Delivered ahead of schedule, 2000+ subscribers connected, all links under loss threshold.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Blog Section -->
+        <section id="blog" class="section visible" aria-labelledby="blogTitle">
+            <div class="container">
+                <h2 class="section-title" id="blogTitle" data-i18n="blogTitle">Insights &amp; Articles</h2>
+                <p class="section-subtitle" data-i18n="blogSubtitle">Expert knowledge and industry updates</p>
+                
+                <div class="grid-3">
+                    <article class="card blog-card" onclick="toggleBlog(this)">
+                        <div class="blog-meta">
+                            <span data-i18n="blogDate1">March 15, 2024</span>
+                            <span>•</span>
+                            <span data-i18n="readTime1">5 min read</span>
+                        </div>
+                        <h3 class="blog-title" data-i18n="blog1Title">The Future of Fiber: Why FTTH is Essential for Modern Infrastructure</h3>
+                        <p class="blog-snippet" data-i18n="blog1Snippet">Fiber to the Home (FTTH) technology is revolutionizing how we connect buildings and communities. Learn why this technology matters for your organization.</p>
+                        <div class="blog-tags">
+                            <span class="badge" data-i18n="tagFiber">Fiber Optics</span>
+                            <span class="badge" data-i18n="tagInfra">Infrastructure</span>
+                        </div>
+                        <div class="blog-toggle"><span data-i18n="readMore">Read more</span> →</div>
+                        <div class="blog-content">
+                            <p data-i18n="blog1Content">Fiber optic technology has become the gold standard for network infrastructure worldwide. Unlike traditional copper cables, fiber optic cables transmit data using light, enabling speeds up to 100 Gbps and beyond. This technology offers several advantages: immunity to electromagnetic interference, lower latency, and the ability to maintain signal quality over long distances. For businesses and institutions looking to future-proof their infrastructure, investing in FTTH technology today means avoiding costly upgrades tomorrow. Our team has successfully deployed FTTH solutions across various environments, from residential complexes to industrial parks, always ensuring the highest quality standards and comprehensive documentation for easy maintenance.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card blog-card" onclick="toggleBlog(this)">
+                        <div class="blog-meta">
+                            <span data-i18n="blogDate2">February 28, 2024</span>
+                            <span>•</span>
+                            <span data-i18n="readTime2">7 min read</span>
+                        </div>
+                        <h3 class="blog-title" data-i18n="blog2Title">Network Security Best Practices for Enterprise Environments</h3>
+                        <p class="blog-snippet" data-i18n="blog2Snippet">Security should be built into your network from day one, not added as an afterthought. Discover the key principles of security-first network design.</p>
+                        <div class="blog-tags">
+                            <span class="badge" data-i18n="tagSecurity">Security</span>
+                            <span class="badge" data-i18n="tagEnterprise">Enterprise</span>
+                        </div>
+                        <div class="blog-toggle"><span data-i18n="readMore">Read more</span> →</div>
+                        <div class="blog-content">
+                            <p data-i18n="blog2Content">In today's threat landscape, network security cannot be an afterthought. A security-first approach means implementing defense in depth: multiple layers of protection that work together to safeguard your data. Key practices include proper network segmentation using VLANs, implementing robust firewall policies, enabling encrypted communications between network segments, and maintaining detailed access logs. Regular security audits and penetration testing help identify vulnerabilities before attackers can exploit them. At FIBER WAVE, we design every network with security as a foundational principle, ensuring that our clients' infrastructure is protected against current and emerging threats while remaining manageable and scalable.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="card blog-card" onclick="toggleBlog(this)">
+                        <div class="blog-meta">
+                            <span data-i18n="blogDate3">January 10, 2024</span>
+                            <span>•</span>
+                            <span data-i18n="readTime3">4 min read</span>
+                        </div>
+                        <h3 class="blog-title" data-i18n="blog3Title">Documentation: The Unsung Hero of Network Management</h3>
+                        <p class="blog-snippet" data-i18n="blog3Snippet">Good documentation transforms chaotic troubleshooting into systematic problem-solving. Learn how proper documentation saves time and money.</p>
+                        <div class="blog-tags">
+                            <span class="badge" data-i18n="tagDocs">Documentation</span>
+                            <span class="badge" data-i18n="tagBestPractice">Best Practices</span>
+                        </div>
+                        <div class="blog-toggle"><span data-i18n="readMore">Read more</span> →</div>
+                        <div class="blog-content">
+                            <p data-i18n="blog3Content">Comprehensive network documentation is perhaps the most undervalued aspect of infrastructure management. When issues arise—and they will—having detailed documentation means the difference between hours of confusion and minutes to resolution. Effective documentation includes physical topology diagrams, logical network maps, IP addressing schemes, cable labeling conventions, equipment configurations, and change logs. We recommend using standardized templates and keeping documentation updated after every change. At FIBER WAVE, documentation is not optional—it's a core deliverable for every project. Our clients receive complete documentation packages that enable their teams to manage, troubleshoot, and expand their networks with confidence.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section visible" aria-labelledby="contactTitle">
+            <div class="container">
+                <h2 class="section-title" id="contactTitle" data-i18n="contactTitle">Contact Us</h2>
+                <p class="section-subtitle" data-i18n="contactSubtitle">Let's discuss your project requirements</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-info-card">
+                            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path></svg>
+                            <div>
+                                <h4 data-i18n="phone">Phone</h4>
+                                <p>+01559974391</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-card">
+                            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path></svg>
+                            <div>
+                                <h4 data-i18n="email">Email</h4>
+                                <p>wesakran@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-card">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path></svg>
+                            <div>
+                                <h4 data-i18n="address">Address</h4>
+                                <p data-i18n="addressValue">cairo</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-forms">
+                        <form id="contactForm" class="card" onsubmit="return handleContactSubmit(event)">
+                            <h3 class="card-title" style="margin-bottom: 25px;" data-i18n="formTitle">Send us a message</h3>
+                            <div class="success-message" id="contactSuccess" data-i18n="successMessage">Thank you! Your message has been sent successfully. We will contact you shortly.</div>
+                            
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label class="form-label" for="name" data-i18n="labelName">Full Name *</label>
+                                    <input type="text" id="name" class="form-input" required="" aria-required="true">
+                                    <span class="error-message" data-i18n="errorName">Please enter your name</span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="form-label" for="email" data-i18n="labelEmail">Email *</label>
+                                    <input type="email" id="email" class="form-input" required="" aria-required="true">
+                                    <span class="error-message" data-i18n="errorEmail">Please enter a valid email</span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="form-label" for="phone" data-i18n="labelPhone">Phone *</label>
+                                    <input type="tel" id="phone" class="form-input" required="" aria-required="true">
+                                    <span class="error-message" data-i18n="errorPhone">Please enter your phone number</span>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="form-label" for="company" data-i18n="labelCompany">Company</label>
+                                    <input type="text" id="company" class="form-input">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="form-label" for="service" data-i18n="labelService">Service Needed *</label>
+                                    <select id="service" class="form-select" required="" aria-required="true">
+                                        <option value="" data-i18n="selectService">Select a service</option>
+                                        <option value="fiber" data-i18n="optFiber">Fiber Optic Splicing</option>
+                                        <option value="lan" data-i18n="optLan">LAN/WAN Design</option>
+                                        <option value="equipment" data-i18n="optEquipment">Network Equipment Setup</option>
+                                        <option value="maintenance" data-i18n="optMaintenance">Troubleshooting &amp; Maintenance</option>
+                                        <option value="mapping" data-i18n="optMapping">Network Mapping &amp; Planning</option>
+                                        <option value="other" data-i18n="optOther">Other</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="form-label" for="city" data-i18n="labelCity">City</label>
+                                    <input type="text" id="city" class="form-input">
+                                </div>
+                                
+                                <div class="form-group full-width">
+                                    <label class="form-label" for="message" data-i18n="labelMessage">Message *</label>
+                                    <textarea id="message" class="form-textarea" required="" aria-required="true"></textarea>
+                                    <span class="error-message" data-i18n="errorMessage">Please enter your message</span>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" data-i18n="submitBtn">Send Message</button>
+                        </form>
+                        
+                        <!-- Survey Form -->
+                        <div class="survey-form">
+                            <h3 class="survey-title" data-i18n="surveyTitle">Request a Site Survey</h3>
+                            <form id="surveyForm" onsubmit="return handleSurveySubmit(event)">
+                                <div class="success-message" id="surveySuccess" data-i18n="surveySuccess">Thank you! Your site survey request has been received. Our team will contact you within 24 hours.</div>
+                                
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label class="form-label" for="surveyName" data-i18n="labelName">Full Name *</label>
+                                        <input type="text" id="surveyName" class="form-input" required="">
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="form-label" for="surveyPhone" data-i18n="labelPhone">Phone *</label>
+                                        <input type="tel" id="surveyPhone" class="form-input" required="">
+                                    </div>
+                                    
+                                    <div class="form-group full-width">
+                                        <label class="form-label" for="surveyLocation" data-i18n="labelLocation">Site Location *</label>
+                                        <input type="text" id="surveyLocation" class="form-input" required="">
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-secondary" data-i18n="surveyBtn">Request Survey</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#home" class="logo">
+                        <svg class="logo-wave" viewBox="0 0 50 50" aria-hidden="true" style="width:35px;height:35px;">
+                            <circle cx="25" cy="25" r="23" fill="#0a1628" stroke="url(#waveGrad)" stroke-width="2"></circle>
+                            <path d="M8 25 Q15 15 25 25 Q35 35 42 25" stroke="url(#waveGrad)" fill="none" stroke-width="3" stroke-linecap="round"></path>
+                        </svg>
+                        <span class="logo-text">FIBER WAVE</span>
+                    </a>
+                    <p data-i18n="slogan">Where Networks Become Power.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-i18n="quickLinks">Quick Links</h4>
+                    <ul>
+                        <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#about" data-i18n="navAbout">About</a></li>
+                        <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#services" data-i18n="navServices">Services</a></li>
+                        <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#projects" data-i18n="navProjects">Projects</a></li>
+                        <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#contact" data-i18n="navContact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-i18n="servicesTitle">Our Services</h4>
+                    <ul>
+                        <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#services" data-i18n="service1Title">Fiber Optic Splicing</a></li>
+                        <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#services" data-i18n="service2Title">LAN/WAN Network Design</a></li>
+                        <li><a href="file:///C:/Users/shahd/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/3BD228C2249DEDA961157162B0AC1CB65B1E050B/transfers/2025-52/%D9%81%D8%A7%D9%8A%D8%A8%D8%B1%20wave.html#services" data-i18n="service4Title">Troubleshooting &amp; Maintenance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 data-i18n="contactTitle">Contact Us</h4>
+                    <ul>
+                        <li>+201559974391</li>
+                        <li>wesakran@gmail.com</li>
+                        <li data-i18n="addressValue">cairo </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="copyright">© 2024 FIBER WAVE Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/966500000000" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Contact via WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+    </a>
+    
+    <script>
+        // Translation Dictionary
+        const translations = {
+            en: {
+                skipToMain: "Skip to main content",
+                navHome: "Home",
+                navAbout: "About",
+                navServices: "Services",
+                navIndustries: "Industries",
+                navProjects: "Projects",
+                navBlog: "Blog",
+                navContact: "Contact",
+                heroTitle: "High-Precision Fiber & Network Engineering",
+                heroSubtitle: "Fast, accurate, secure network infrastructure—delivered with full documentation and professional workflow.",
+                heroBtn1: "View Services",
+                heroBtn2: "Request a Site Survey",
+                whyTitle: "Why Fiber Wave?",
+                whySubtitle: "We combine technical precision with professional delivery",
+                why1Title: "Precision",
+                why1Text: "Accurate measurements and professional-grade installations every time",
+                why2Title: "Speed",
+                why2Text: "Fast project delivery without compromising on quality standards",
+                why3Title: "Security",
+                why3Text: "Security-first design approach for all network implementations",
+                why4Title: "Reliability",
+                why4Text: "Consistent, dependable results backed by thorough documentation",
+                workflowTitle: "Our Workflow",
+                workflowSubtitle: "A systematic approach to every project",
+                step1: "Plan",
+                step2: "Build",
+                step3: "Test",
+                step4: "Document",
+                step5: "Support",
+                aboutTitle: "About Us",
+                aboutSubtitle: "Building the network infrastructure of tomorrow",
+                aboutP1: "FIBER WAVE Solutions is a modern telecommunications and network infrastructure company specializing in fiber optic installations, enterprise network design, and comprehensive technical solutions.",
+                aboutP2: "We stand out through our commitment to thorough documentation, modern engineering workflows, professional communication, and security-oriented design principles. Every project we undertake receives the same level of precision and attention to detail.",
+                aboutP3: "Our team combines years of field experience with cutting-edge technical knowledge to deliver solutions that exceed expectations.",
+                visionTitle: "Our Vision",
+                vision1: "Smart Solutions division for IoT and automation",
+                vision2: "Cybersecurity services expansion",
+                vision3: "Multi-city growth and regional presence",
+                vision4: "Strong engineering and field team development",
+                vision5: "ASA Academy training ecosystem",
+                servicesTitle: "Our Services",
+                servicesSubtitle: "Comprehensive network infrastructure solutions",
+                service1Title: "Fiber Optic Splicing",
+                service1Desc: "Professional FTTH, FTTB, and backbone fiber optic installation and splicing services.",
+                service1B1: "Low-loss fusion splicing",
+                service1B2: "OTDR testing & certification",
+                service1B3: "Complete fiber documentation",
+                service2Title: "LAN/WAN Network Design",
+                service2Desc: "Complete network infrastructure design for companies, schools, and industrial facilities.",
+                service2B1: "Scalable architecture design",
+                service2B2: "VLAN segmentation planning",
+                service2B3: "Redundancy implementation",
+                service3Title: "Network Equipment Setup",
+                service3Desc: "Expert installation and configuration of routers, switches, and firewalls.",
+                service3B1: "Multi-vendor expertise",
+                service3B2: "Security hardening",
+                service3B3: "Performance optimization",
+                service4Title: "Troubleshooting & Maintenance",
+                service4Desc: "Rapid diagnosis and resolution of network issues with ongoing support.",
+                service4B1: "24/7 emergency support",
+                service4B2: "Proactive monitoring",
+                service4B3: "Root cause analysis",
+                service5Title: "Network Mapping & Planning",
+                service5Desc: "Comprehensive infrastructure assessment and improvement planning.",
+                service5B1: "Full topology mapping",
+                service5B2: "Capacity planning",
+                service5B3: "Upgrade roadmap",
+                requestQuote: "Request Quote",
+                deliverablesTitle: "Project Deliverables",
+                del1: "Full Documentation Package",
+                del2: "Network Topology Diagrams",
+                del3: "Cable Labeling Standards",
+                del4: "Testing Results (OTDR/Power)",
+                del5: "Handover Checklist",
+                industriesTitle: "Industries We Serve",
+                industriesSubtitle: "Tailored solutions for every sector",
+                ind1: "Telecom Companies",
+                ind2: "Schools & Universities",
+                ind3: "Corporate Offices",
+                ind4: "Factories & Smart Buildings",
+                ind5: "Government Projects",
+                projectsTitle: "Our Projects",
+                projectsSubtitle: "Real results from real implementations",
+                problem: "Problem",
+                solution: "Solution",
+                result: "Result",
+                proj1Title: "University Campus Network",
+                proj1Client: "Educational Institution",
+                proj1Problem: "Outdated network infrastructure causing slow connectivity across 12 buildings with 5000+ users.",
+                proj1Solution: "Complete fiber backbone installation with new switching infrastructure and VLAN segmentation.",
+                proj1Result: "300% increase in network speed, 99.9% uptime achieved, zero security incidents in 12 months.",
+                proj2Title: "Industrial Factory Connectivity",
+                proj2Client: "Manufacturing Facility",
+                proj2Problem: "No structured cabling, frequent downtime affecting production line automation systems.",
+                proj2Solution: "Industrial-grade fiber installation with redundant paths and environmental protection.",
+                proj2Result: "Production efficiency up 45%, network downtime reduced from 8 hours/month to under 10 minutes.",
+                proj3Title: "Corporate Headquarters Upgrade",
+                proj3Client: "Financial Services Company",
+                proj3Problem: "Security vulnerabilities in legacy network, no segmentation between departments.",
+                proj3Solution: "Network redesign with firewall zones, micro-segmentation, and encrypted backbone links.",
+                proj3Result: "Passed security audit with zero findings, achieved compliance certification within 3 months.",
+                proj4Title: "Multi-Branch Telecom Project",
+                proj4Client: "Regional ISP",
+                proj4Problem: "Expanding to 15 new neighborhoods required rapid FTTH deployment with quality control.",
+                proj4Solution: "Managed end-to-end fiber deployment including splicing, testing, and documentation.",
+                proj4Result: "Delivered ahead of schedule, 2000+ subscribers connected, all links under loss threshold.",
+                blogTitle: "Insights & Articles",
+                blogSubtitle: "Expert knowledge and industry updates",
+                blogDate1: "March 15, 2024",
+                blogDate2: "February 28, 2024",
+                blogDate3: "January 10, 2024",
+                readTime1: "5 min read",
+                readTime2: "7 min read",
+                readTime3: "4 min read",
+                blog1Title: "The Future of Fiber: Why FTTH is Essential for Modern Infrastructure",
+                blog1Snippet: "Fiber to the Home (FTTH) technology is revolutionizing how we connect buildings and communities. Learn why this technology matters for your organization.",
+                blog1Content: "Fiber optic technology has become the gold standard for network infrastructure worldwide. Unlike traditional copper cables, fiber optic cables transmit data using light, enabling speeds up to 100 Gbps and beyond. This technology offers several advantages: immunity to electromagnetic interference, lower latency, and the ability to maintain signal quality over long distances. For businesses and institutions looking to future-proof their infrastructure, investing in FTTH technology today means avoiding costly upgrades tomorrow. Our team has successfully deployed FTTH solutions across various environments, from residential complexes to industrial parks, always ensuring the highest quality standards and comprehensive documentation for easy maintenance.",
+                blog2Title: "Network Security Best Practices for Enterprise Environments",
+                blog2Snippet: "Security should be built into your network from day one, not added as an afterthought. Discover the key principles of security-first network design.",
+                blog2Content: "In today's threat landscape, network security cannot be an afterthought. A security-first approach means implementing defense in depth: multiple layers of protection that work together to safeguard your data. Key practices include proper network segmentation using VLANs, implementing robust firewall policies, enabling encrypted communications between network segments, and maintaining detailed access logs. Regular security audits and penetration testing help identify vulnerabilities before attackers can exploit them. At FIBER WAVE, we design every network with security as a foundational principle, ensuring that our clients' infrastructure is protected against current and emerging threats while remaining manageable and scalable.",
+                blog3Title: "Documentation: The Unsung Hero of Network Management",
+                blog3Snippet: "Good documentation transforms chaotic troubleshooting into systematic problem-solving. Learn how proper documentation saves time and money.",
+                blog3Content: "Comprehensive network documentation is perhaps the most undervalued aspect of infrastructure management. When issues arise—and they will—having detailed documentation means the difference between hours of confusion and minutes to resolution. Effective documentation includes physical topology diagrams, logical network maps, IP addressing schemes, cable labeling conventions, equipment configurations, and change logs. We recommend using standardized templates and keeping documentation updated after every change. At FIBER WAVE, documentation is not optional—it's a core deliverable for every project. Our clients receive complete documentation packages that enable their teams to manage, troubleshoot, and expand their networks with confidence.",
+                tagFiber: "Fiber Optics",
+                tagInfra: "Infrastructure",
+                tagSecurity: "Security",
+                tagEnterprise: "Enterprise",
+                tagDocs: "Documentation",
+                tagBestPractice: "Best Practices",
+                readMore: "Read more",
+                readLess: "Read less",
+                contactTitle: "Contact Us",
+                contactSubtitle: "Let's discuss your project requirements",
+                phone: "Phone",
+                email: "Email",
+                address: "Address",
+                addressValue: "Riyadh, Saudi Arabia",
+                formTitle: "Send us a message",
+                labelName: "Full Name *",
+                labelEmail: "Email *",
+                labelPhone: "Phone *",
+                labelCompany: "Company",
+                labelService: "Service Needed *",
+                labelCity: "City",
+                labelMessage: "Message *",
+                labelLocation: "Site Location *",
+                selectService: "Select a service",
+                optFiber: "Fiber Optic Splicing",
+                optLan: "LAN/WAN Design",
+                optEquipment: "Network Equipment Setup",
+                optMaintenance: "Troubleshooting & Maintenance",
+                optMapping: "Network Mapping & Planning",
+                optOther: "Other",
+                errorName: "Please enter your name",
+                errorEmail: "Please enter a valid email",
+                errorPhone: "Please enter your phone number",
+                errorMessage: "Please enter your message",
+                submitBtn: "Send Message",
+                successMessage: "Thank you! Your message has been sent successfully. We will contact you shortly.",
+                surveyTitle: "Request a Site Survey",
+                surveyBtn: "Request Survey",
+                surveySuccess: "Thank you! Your site survey request has been received. Our team will contact you within 24 hours.",
+                slogan: "Where Networks Become Power.",
+                quickLinks: "Quick Links",
+                copyright: "© 2024 FIBER WAVE Solutions. All rights reserved."
+            },
+            ar: {
+                skipToMain: "انتقل إلى المحتوى الرئيسي",
+                navHome: "الرئيسية",
+                navAbout: "من نحن",
+                navServices: "خدماتنا",
+                navIndustries: "القطاعات",
+                navProjects: "المشاريع",
+                navBlog: "المدونة",
+                navContact: "تواصل معنا",
+                heroTitle: "هندسة شبكات وفايبر بدقة عالية",
+                heroSubtitle: "بنية تحتية للشبكات سريعة ودقيقة وآمنة — بتوثيق كامل ومنهج عمل هندسي احترافي.",
+                heroBtn1: "عرض الخدمات",
+                heroBtn2: "اطلب معاينة للموقع",
+                whyTitle: "لماذا فايبر ويف؟",
+                whySubtitle: "نجمع بين الدقة التقنية والتسليم الاحترافي",
+                why1Title: "الدقة",
+                why1Text: "قياسات دقيقة وتركيبات بمستوى احترافي في كل مرة",
+                why2Title: "السرعة",
+                why2Text: "تسليم سريع للمشاريع دون المساومة على معايير الجودة",
+                why3Title: "الأمان",
+                why3Text: "نهج تصميم يضع الأمان أولاً لجميع تطبيقات الشبكات",
+                why4Title: "الموثوقية",
+                why4Text: "نتائج ثابتة وموثوقة مدعومة بتوثيق شامل",
+                workflowTitle: "منهجية العمل",
+                workflowSubtitle: "نهج منظم لكل مشروع",
+                step1: "تخطيط",
+                step2: "تنفيذ",
+                step3: "اختبار",
+                step4: "توثيق",
+                step5: "دعم",
+                aboutTitle: "من نحن",
+                aboutSubtitle: "نبني البنية التحتية للشبكات للغد",
+                aboutP1: "فايبر ويف للحلول هي شركة اتصالات وبنية تحتية للشبكات حديثة متخصصة في تركيبات الألياف الضوئية وتصميم شبكات المؤسسات والحلول التقنية الشاملة.",
+                aboutP2: "نتميز من خلال التزامنا بالتوثيق الشامل ومنهجيات الهندسة الحديثة والتواصل المهني ومبادئ التصميم الموجهة نحو الأمان. يحظى كل مشروع نقوم به بنفس المستوى من الدقة والاهتمام بالتفاصيل.",
+                aboutP3: "يجمع فريقنا بين سنوات من الخبرة الميدانية والمعرفة التقنية المتطورة لتقديم حلول تفوق التوقعات.",
+                visionTitle: "رؤيتنا",
+                vision1: "قسم الحلول الذكية لإنترنت الأشياء والأتمتة",
+                vision2: "التوسع في خدمات الأمن السيبراني",
+                vision3: "النمو متعدد المدن والتواجد الإقليمي",
+                vision4: "تطوير فريق هندسي وميداني قوي",
+                vision5: "منظومة أكاديمية ASA التدريبية",
+                servicesTitle: "خدماتنا",
+                servicesSubtitle: "حلول شاملة للبنية التحتية للشبكات",
+                service1Title: "لحام الألياف الضوئية",
+                service1Desc: "خدمات تركيب ولحام الألياف الضوئية الاحترافية لـ FTTH و FTTB والشبكات الأساسية.",
+                service1B1: "لحام انصهاري منخفض الفقد",
+                service1B2: "اختبار OTDR والشهادات",
+                service1B3: "توثيق كامل للألياف",
+                service2Title: "تصميم شبكات LAN/WAN",
+                service2Desc: "تصميم كامل للبنية التحتية للشبكات للشركات والمدارس والمنشآت الصناعية.",
+                service2B1: "تصميم معماري قابل للتوسع",
+                service2B2: "تخطيط تقسيم VLAN",
+                service2B3: "تنفيذ التكرار والاحتياط",
+                service3Title: "إعداد معدات الشبكة",
+                service3Desc: "تركيب وتكوين احترافي للموجهات والمحولات وجدران الحماية.",
+                service3B1: "خبرة متعددة الموردين",
+                service3B2: "تقوية الأمان",
+                service3B3: "تحسين الأداء",
+                service4Title: "استكشاف الأخطاء والصيانة",
+                service4Desc: "تشخيص سريع وحل مشاكل الشبكة مع دعم مستمر.",
+                service4B1: "دعم طوارئ على مدار الساعة",
+                service4B2: "مراقبة استباقية",
+                service4B3: "تحليل السبب الجذري",
+                service5Title: "تخطيط الشبكة ورسم الخرائط",
+                service5Desc: "تقييم شامل للبنية التحتية وتخطيط التحسينات.",
+                service5B1: "رسم خرائط طوبولوجيا كاملة",
+                service5B2: "تخطيط السعة",
+                service5B3: "خارطة طريق الترقية",
+                requestQuote: "اطلب عرض سعر",
+                deliverablesTitle: "مخرجات المشروع",
+                del1: "حزمة التوثيق الكاملة",
+                del2: "مخططات طوبولوجيا الشبكة",
+                del3: "معايير تسمية الكابلات",
+                del4: "نتائج الاختبارات (OTDR/الطاقة)",
+                del5: "قائمة التسليم والتحقق",
+                industriesTitle: "القطاعات التي نخدمها",
+                industriesSubtitle: "حلول مخصصة لكل قطاع",
+                ind1: "شركات الاتصالات",
+                ind2: "المدارس والجامعات",
+                ind3: "المكاتب والمؤسسات",
+                ind4: "المصانع والمباني الذكية",
+                ind5: "المشاريع الحكومية",
+                projectsTitle: "مشاريعنا",
+                projectsSubtitle: "نتائج حقيقية من تطبيقات فعلية",
+                problem: "المشكلة",
+                solution: "الحل",
+                result: "النتيجة",
+                proj1Title: "شبكة الحرم الجامعي",
+                proj1Client: "مؤسسة تعليمية",
+                proj1Problem: "بنية تحتية قديمة للشبكة تسبب بطء الاتصال في 12 مبنى مع أكثر من 5000 مستخدم.",
+                proj1Solution: "تركيب شبكة ألياف أساسية كاملة مع بنية تحويل جديدة وتقسيم VLAN.",
+                proj1Result: "زيادة 300% في سرعة الشبكة، تحقيق وقت تشغيل 99.9%، صفر حوادث أمنية خلال 12 شهراً.",
+                proj2Title: "اتصالات المصنع الصناعي",
+                proj2Client: "منشأة تصنيع",
+                proj2Problem: "عدم وجود كابلات منظمة، أعطال متكررة تؤثر على أنظمة أتمتة خط الإنتاج.",
+                proj2Solution: "تركيب ألياف بمستوى صناعي مع مسارات احتياطية وحماية بيئية.",
+                proj2Result: "ارتفاع كفاءة الإنتاج 45%، انخفاض أعطال الشبكة من 8 ساعات/شهر إلى أقل من 10 دقائق.",
+                proj3Title: "ترقية المقر الرئيسي للشركة",
+                proj3Client: "شركة خدمات مالية",
+                proj3Problem: "ثغرات أمنية في الشبكة القديمة، عدم وجود فصل بين الأقسام.",
+                proj3Solution: "إعادة تصميم الشبكة مع مناطق جدار الحماية والتقسيم الدقيق وروابط أساسية مشفرة.",
+                proj3Result: "اجتياز التدقيق الأمني بدون ملاحظات، تحقيق شهادة الامتثال خلال 3 أشهر.",
+                proj4Title: "مشروع اتصالات متعدد الفروع",
+                proj4Client: "مزود خدمة إنترنت إقليمي",
+                proj4Problem: "التوسع إلى 15 حي جديد يتطلب نشر FTTH سريع مع ضبط الجودة.",
+                proj4Solution: "إدارة نشر الألياف من البداية إلى النهاية بما في ذلك اللحام والاختبار والتوثيق.",
+                proj4Result: "التسليم قبل الموعد، توصيل أكثر من 2000 مشترك، جميع الوصلات تحت عتبة الفقد.",
+                blogTitle: "مقالات ورؤى",
+                blogSubtitle: "معرفة متخصصة وآخر المستجدات",
+                blogDate1: "15 مارس 2024",
+                blogDate2: "28 فبراير 2024",
+                blogDate3: "10 يناير 2024",
+                readTime1: "5 دقائق قراءة",
+                readTime2: "7 دقائق قراءة",
+                readTime3: "4 دقائق قراءة",
+                blog1Title: "مستقبل الألياف: لماذا FTTH ضروري للبنية التحتية الحديثة",
+                blog1Snippet: "تقنية الألياف إلى المنزل (FTTH) تحدث ثورة في طريقة ربط المباني والمجتمعات. تعرف على أهمية هذه التقنية لمؤسستك.",
+                blog1Content: "أصبحت تقنية الألياف الضوئية المعيار الذهبي للبنية التحتية للشبكات عالمياً. على عكس كابلات النحاس التقليدية، تنقل كابلات الألياف الضوئية البيانات باستخدام الضوء، مما يتيح سرعات تصل إلى 100 جيجابت في الثانية وأكثر. توفر هذه التقنية العديد من المزايا: الحصانة من التداخل الكهرومغناطيسي، زمن استجابة أقل، والقدرة على الحفاظ على جودة الإشارة على مسافات طويلة. للمؤسسات التي تسعى لتأمين بنيتها التحتية للمستقبل، الاستثمار في تقنية FTTH اليوم يعني تجنب ترقيات مكلفة غداً. نجح فريقنا في نشر حلول FTTH في بيئات متنوعة، من المجمعات السكنية إلى المناطق الصناعية، مع ضمان أعلى معايير الجودة والتوثيق الشامل لسهولة الصيانة.",
+                blog2Title: "أفضل ممارسات أمن الشبكات لبيئات المؤسسات",
+                blog2Snippet: "يجب بناء الأمان في شبكتك من اليوم الأول، وليس إضافته لاحقاً. اكتشف المبادئ الرئيسية لتصميم الشبكات الآمن.",
+                blog2Content: "في مشهد التهديدات اليوم، لا يمكن أن يكون أمن الشبكات فكرة لاحقة. نهج الأمان أولاً يعني تنفيذ الدفاع في العمق: طبقات متعددة من الحماية تعمل معاً لحماية بياناتك. الممارسات الرئيسية تشمل التقسيم الصحيح للشبكة باستخدام VLANs، تنفيذ سياسات جدار حماية قوية، تمكين الاتصالات المشفرة بين قطاعات الشبكة، والحفاظ على سجلات وصول مفصلة. تساعد عمليات التدقيق الأمني المنتظمة واختبارات الاختراق في تحديد الثغرات قبل أن يستغلها المهاجمون. في فايبر ويف، نصمم كل شبكة مع الأمان كمبدأ أساسي، مما يضمن حماية بنية عملائنا التحتية ضد التهديدات الحالية والناشئة مع بقائها قابلة للإدارة والتوسع.",
+                blog3Title: "التوثيق: البطل المجهول لإدارة الشبكات",
+                blog3Snippet: "التوثيق الجيد يحول استكشاف الأخطاء الفوضوي إلى حل منهجي للمشكلات. تعلم كيف يوفر التوثيق المناسب الوقت والمال.",
+                blog3Content: "ربما يكون التوثيق الشامل للشبكة الجانب الأقل تقديراً في إدارة البنية التحتية. عندما تنشأ المشاكل - وستنشأ - وجود توثيق مفصل يعني الفرق بين ساعات من الارتباك ودقائق للحل. التوثيق الفعال يشمل مخططات الطوبولوجيا الفعلية، خرائط الشبكة المنطقية، مخططات عناوين IP، اتفاقيات تسمية الكابلات، تكوينات المعدات، وسجلات التغيير. نوصي باستخدام قوالب موحدة وتحديث التوثيق بعد كل تغيير. في فايبر ويف، التوثيق ليس اختيارياً - إنه ناتج أساسي لكل مشروع. يتلقى عملاؤنا حزم توثيق كاملة تمكن فرقهم من إدارة واستكشاف أخطاء وتوسيع شبكاتهم بثقة.",
+                tagFiber: "الألياف الضوئية",
+                tagInfra: "البنية التحتية",
+                tagSecurity: "الأمان",
+                tagEnterprise: "المؤسسات",
+                tagDocs: "التوثيق",
+                tagBestPractice: "أفضل الممارسات",
+                readMore: "اقرأ المزيد",
+                readLess: "اقرأ أقل",
+                contactTitle: "تواصل معنا",
+                contactSubtitle: "لنناقش متطلبات مشروعك",
+                phone: "الهاتف",
+                email: "البريد الإلكتروني",
+                address: "العنوان",
+                addressValue: "الرياض، المملكة العربية السعودية",
+                formTitle: "أرسل لنا رسالة",
+                labelName: "الاسم الكامل *",
+                labelEmail: "البريد الإلكتروني *",
+                labelPhone: "الهاتف *",
+                labelCompany: "الشركة",
+                labelService: "الخدمة المطلوبة *",
+                labelCity: "المدينة",
+                labelMessage: "الرسالة *",
+                labelLocation: "موقع المعاينة *",
+                selectService: "اختر خدمة",
+                optFiber: "لحام الألياف الضوئية",
+                optLan: "تصميم LAN/WAN",
+                optEquipment: "إعداد معدات الشبكة",
+                optMaintenance: "استكشاف الأخطاء والصيانة",
+                optMapping: "تخطيط الشبكة ورسم الخرائط",
+                optOther: "أخرى",
+                errorName: "الرجاء إدخال اسمك",
+                errorEmail: "الرجاء إدخال بريد إلكتروني صحيح",
+                errorPhone: "الرجاء إدخال رقم هاتفك",
+                errorMessage: "الرجاء إدخال رسالتك",
+                submitBtn: "إرسال الرسالة",
+                successMessage: "شكراً لك! تم إرسال رسالتك بنجاح. سنتواصل معك قريباً.",
+                surveyTitle: "اطلب معاينة للموقع",
+                surveyBtn: "طلب معاينة",
+                surveySuccess: "شكراً لك! تم استلام طلب المعاينة. سيتواصل فريقنا معك خلال 24 ساعة.",
+                slogan: "حيث تصبح الشبكات قوة.",
+                quickLinks: "روابط سريعة",
+                copyright: "© 2024 فايبر ويف للحلول. جميع الحقوق محفوظة."
+            }
+        };
+        
+        // Current language
+        let currentLang = localStorage.getItem('fiberwave-lang') || 'en';
+        
+        // Initialize language
+        function initLanguage() {
+            const savedLang = localStorage.getItem('fiberwave-lang');
+            if (savedLang) {
+                currentLang = savedLang;
+            }
+            setLanguage(currentLang);
+        }
+        
+        // Set language
+        function setLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('fiberwave-lang', lang);
+            
+            // Update HTML attributes
+            document.documentElement.lang = lang;
+            document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+            
+            // Update all translatable elements
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang][key]) {
+                    el.textContent = translations[lang][key];
+                }
+            });
+            
+            // Update language buttons
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.lang === lang);
+                btn.setAttribute('aria-pressed', btn.dataset.lang === lang);
+            });
+            
+            // Update meta tags
+            if (lang === 'ar') {
+                document.querySelector('meta[name="description"]').content = 'فايبر ويف للحلول - هندسة ألياف ضوئية وشبكات احترافية. حلول شبكات سريعة ودقيقة وآمنة مع توثيق كامل.';
+            } else {
+                document.querySelector('meta[name="description"]').content = 'FIBER WAVE Solutions - Professional fiber optic and network infrastructure engineering. Fast, accurate, secure network solutions with full documentation.';
+            }
+        }
+        
+        // Language toggle event listeners
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                setLanguage(btn.dataset.lang);
+            });
+        });
+        
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            const isExpanded = navLinks.classList.toggle('active');
+            mobileMenuBtn.setAttribute('aria-expanded', isExpanded);
+        });
+        
+        // Close mobile menu when clicking a link
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileMenuBtn.setAttribute('aria-expanded', 'false');
+            });
+        });
+        
+        // Scroll animations
+        function handleScrollAnimation() {
+            const sections = document.querySelectorAll('.section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            
+            sections.forEach(section => observer.observe(section));
+        }
+        
+        // Blog toggle
+        function toggleBlog(card) {
+            const content = card.querySelector('.blog-content');
+            const toggle = card.querySelector('.blog-toggle span');
+            const isExpanded = content.classList.toggle('expanded');
+            toggle.setAttribute('data-i18n', isExpanded ? 'readLess' : 'readMore');
+            toggle.textContent = translations[currentLang][isExpanded ? 'readLess' : 'readMore'];
+        }
+        
+        // Form validation and submission
+        function validateEmail(email) {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+        
+        function handleContactSubmit(e) {
+            e.preventDefault();
+            const form = e.target;
+            const success = document.getElementById('contactSuccess');
+            
+            // Reset previous errors
+            form.querySelectorAll('.error').forEach(el => el.classList.remove('error'));
+            form.querySelectorAll('.error-message').forEach(el => el.style.display = 'none');
+            
+            let isValid = true;
+            
+            // Validate required fields
+            const name = form.querySelector('#name');
+            const email = form.querySelector('#email');
+            const phone = form.querySelector('#phone');
+            const service = form.querySelector('#service');
+            const message = form.querySelector('#message');
+            
+            if (!name.value.trim()) {
+                name.classList.add('error');
+                name.nextElementSibling.style.display = 'block';
+                isValid = false;
+            }
+            
+            if (!validateEmail(email.value)) {
+                email.classList.add('error');
+                email.nextElementSibling.style.display = 'block';
+                isValid = false;
+            }
+            
+            if (!phone.value.trim()) {
+                phone.classList.add('error');
+                phone.nextElementSibling.style.display = 'block';
+                isValid = false;
+            }
+            
+            if (!message.value.trim()) {
+                message.classList.add('error');
+                message.nextElementSibling.style.display = 'block';
+                isValid = false;
+            }
+            
+            if (isValid) {
+                success.classList.add('show');
+                form.reset();
+                setTimeout(() => {
+                    success.classList.remove('show');
+                }, 5000);
+            }
+            
+            return false;
+        }
+        
+        function handleSurveySubmit(e) {
+            e.preventDefault();
+            const form = e.target;
+            const success = document.getElementById('surveySuccess');
+            
+            const name = form.querySelector('#surveyName');
+            const phone = form.querySelector('#surveyPhone');
+            const location = form.querySelector('#surveyLocation');
+            
+            if (name.value.trim() && phone.value.trim() && location.value.trim()) {
+                success.classList.add('show');
+                form.reset();
+                setTimeout(() => {
+                    success.classList.remove('show');
+                }, 5000);
+            }
+            
+            return false;
+        }
+        
+        // Header scroll effect
+        let lastScroll = 0;
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                header.style.background = 'rgba(10, 22, 40, 0.98)';
+            } else {
+                header.style.background = 'rgba(10, 22, 40, 0.95)';
+            }
+            
+            lastScroll = currentScroll;
+        });
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            initLanguage();
+            handleScrollAnimation();
+            
+            // Make hero visible immediately
+            document.querySelector('.hero').classList.add('visible');
+        });
+    </script>
+
+</body></html>
